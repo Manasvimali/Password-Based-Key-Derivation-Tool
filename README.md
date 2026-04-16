@@ -1,2 +1,2 @@
 # Password-Based-Key-Derivation-Tool
-A Python toolkit for **password-based key derivation**, **password hashing**, and **password strength analysis**. It is intended for learning, local testing, and as a building block for applications that need OWASP-aligned defaults and well-documented cryptography APIs.
+The project takes a user's password, evaluates its strength using entropy and character analysis, and derives secure cryptographic keys from it using three industry-standard algorithms — PBKDF2, bcrypt, and scrypt — all running locally without sending data anywhere.
